@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textTitleSecondActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ВТОРОЕ МЕНЮ "
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="число:"
+        android:textSize="25sp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="число:"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="РЕЗУЛЬТАТ:"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_margin="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="НЕ НАЖИМАТЬ"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        app:cornerRadius="30dp"/>
+
+</LinearLayout>
